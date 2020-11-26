@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/SpecCurs/SpecCurs.vcxproj
+/SpecCurs/SpecCurs.vcxproj.filters
+/SpecCurs/main.cpp
+/SpecCurs.sln
