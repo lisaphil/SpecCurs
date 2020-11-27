@@ -5,7 +5,7 @@ struct are_same {};
 
 template<class T1, class T2, class...T>
 struct are_same<T1, T2, T...> {
-    static constexpr bool value = std::is_same<T1, T2>::value and are_same<T...>::value;
+    static constexpr bool value = std::is_same<T1, T2>::value and are_same<T2, T...>::value;
 };
 
 template<class T>
